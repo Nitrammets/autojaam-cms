@@ -55,6 +55,12 @@ export const schemaTypes = [
         },
       },
       {
+        name: 'youtube_id',
+        title: 'Youtube video ID',
+        type: 'string',
+        description: 'https://www.youtube.com/watch?v=<t67fLYzcEEk>',
+      },
+      {
         name: 'cover_img',
         title: 'Cover Image URL',
         type: 'url',
