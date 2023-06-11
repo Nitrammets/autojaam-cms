@@ -5,6 +5,11 @@ export const schemaTypes = [
     type: 'document',
     fields: [
       {
+        name: 'accordion_img',
+        title: 'Accordion Image',
+        type: 'url',
+      },
+      {
         name: 'manufacturer',
         title: 'Manufacturer',
         type: 'string',
@@ -197,7 +202,7 @@ export const schemaTypes = [
       },
       {
         name: 'dealer',
-        title: 'Dealership name',
+        title: 'Dealership url',
         type: 'url',
       },
     ],
