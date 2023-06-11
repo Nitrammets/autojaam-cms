@@ -71,6 +71,16 @@ export const schemaTypes = [
         type: 'url',
       },
       {
+        name: 'conclusion_img',
+        title: 'To who? Image',
+        type: 'url',
+      },
+      {
+        name: 'stats_img',
+        title: 'Stats Image',
+        type: 'url',
+      },
+      {
         name: 'intro',
         title: 'Intro content',
         type: 'array',
@@ -179,6 +189,16 @@ export const schemaTypes = [
         name: 'acceleration',
         title: 'Acceleration',
         type: 'number',
+      },
+      {
+        name: 'dealer_name',
+        title: 'Dealership name',
+        type: 'string',
+      },
+      {
+        name: 'dealer',
+        title: 'Dealership name',
+        type: 'url',
       },
     ],
   },
